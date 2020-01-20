@@ -1,0 +1,5 @@
+date	size'/'remotesize	flags(request:Update,Range state:File response:Modified,Chunked,gZipped)	statuscode	status ('servermsg')	MIME	Etag|Date	URL	localfile	(from URL)
+19:46:32	1040/1040	---M-Z	200	added ('OK')	text/html	etag:W/%225b95dba7-410%22	https://cfjedimaster.github.io/webdemos/ajax-search-2/	cfjedimaster.github.io/webdemos/ajax-search-2/index.html	(from )
+19:46:33	5232/5232	---M-Z	-1	error ('Open%20error%20when%20decompressing%20(can%20not%20create%20temporary%20file%20/tmp0.z)')	text/html	etag:W/%225c1d106f-247b%22	https://cfjedimaster.github.io/robots.txt		(from )
+19:46:33	84/84	---M--	200	added ('OK')	text/css	etag:%225b95dba7-54%22	https://cfjedimaster.github.io/webdemos/ajax-search-2/style.css	cfjedimaster.github.io/webdemos/ajax-search-2/style.css	(from https://cfjedimaster.github.io/webdemos/ajax-search-2/)
+19:46:34	868/868	---M-Z	200	added ('OK')	application/javascript	etag:W/%225b95dba7-364%22	https://cfjedimaster.github.io/webdemos/ajax-search-2/app.js	cfjedimaster.github.io/webdemos/ajax-search-2/app.js	(from https://cfjedimaster.github.io/webdemos/ajax-search-2/)
