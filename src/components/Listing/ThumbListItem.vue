@@ -77,7 +77,7 @@ export default {
             })
         },
         getReport() {
-          let uri = "http://credit.julla.co/v2/credit-requests?starting_after=ck584tr6l000k08r18d8z4ulv" + this.$route.params.id;
+          let uri = "credit.julla.co/v2/credit-requests?starting_after=ck584tr6l000k08r18d8z4ulv" + this.$route.params.id;
           axios.get(uri).then(response => {
             this.report = response.data;
             console.log(response.data)

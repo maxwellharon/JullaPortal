@@ -471,7 +471,7 @@ export default {
         created: function() {
           this.loading = true;
           axios
-            .get("http://credit.julla.co/v2/credit-requests?starting_after=ck584tr6l000k08r18d8z4ulv")
+            .get("credit.julla.co/v2/credit-requests?starting_after=ck584tr6l000k08r18d8z4ulv")
             .then(res => {
               this.loading = false;
               this.post = res.data;
